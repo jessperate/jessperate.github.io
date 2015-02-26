@@ -42,5 +42,5 @@ button {
   * that must be applied to all buttons when in a disabled state.
   */ }
 
-/* Start http://www.cursors-4u.com */ body, button, h1, html, a:hover {cursor: url(http://cur.cursors-4u.net/food/foo-4/foo333.cur), progress !important;} /* End http://www.cursors-4u.com */
+/* Start http://www.cursors-4u.com */ body, button, html, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth218.cur), progress !important;} /* End http://www.cursors-4u.com */
 }
