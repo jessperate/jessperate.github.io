@@ -256,7 +256,7 @@ h4 {
 
     .menu ul {
     	width: 180px;
-    	margin-left: 200px;
+    	margin-left: 100px;
 		padding: 5px 0;
 		padding-top: 3px;
 		position: absolute;
@@ -287,14 +287,12 @@ h4 {
 		margin: 0 0 5px;
 	}
 
-    }
-
     .menu {
     	text-align: center;
     }
 
     #main {
-    	padding-bottom: 10px;
+    	padding-bottom: 70px;
     }
 
     	.box {
@@ -304,10 +302,11 @@ h4 {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
-		.box {
+	/*	.box {
 			height: 200px;
+			float: none;
 		}
-
+*/
 
 }
 
