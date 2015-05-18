@@ -1,29 +1,52 @@
 body {
-	background-color: #f7f7f8;
+margin: 0;
 }
 
+.gocreative {
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 18px;
+	padding: 5px 20px;
 
+}
+.headercss {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255,255,255,.8);
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.14);
+box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.14);
+}
 
 nav, .menu, li, ul {
 	font-family: 'Roboto Condensed', sans-serif, 700;
 	font-size: 18px;
 	float: right;
-	padding: 5px 30px;
+	padding: 5px 20px;
+	color: #66757f;
 }
 
 ul {
 	 list-style-type: none;
 }
 
-
+#taco {
+	max-width: 8%;
+	max-height: 8%;
+	margin-left: 46%;
+	margin-right: 50%;
+}
 
 #main1 {
 	background-color: #ffffff;
-	height: auto;
+	height: 550px;
 	width: 100%;
 	padding-top: 20px;
-	padding-bottom: 35px;
-
+	padding-bottom: 70px;
 }
 
 #main2 {
@@ -40,46 +63,56 @@ ul {
 		font-weight: 400;	
 		padding-top: 20px;
 		width: 100%;
-		margin-left: 50px;
-		padding-top: 50px;
+		/*margin-left: 50px;
+		margin-top: 50px;*/
+		text-align: center;
+		margin: auto;
+	}
 
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	float: left;
+	height: 10%;
+	width: 40%;
+	background-color: #fff;
+	text-indent: 10px;
+	padding-top: 10px;
+	margin-left: 5%;
+	margin-top: 52%;
 }
 
 #DM {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	max-width: 30%;
+	max-width: 35%;
 	margin-left: 50px;
 	float: left;
 	line-height: 1.5em;
+	margin-right: 10px;
+	text-align: center;
 }
 
 #HPheader {
 
-	font-family: 'Leckerli One', cursive;
-	font-weight: 400;
+/*	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;*/
 /*	text-transform: uppercase;
-*/	color: #2b2b2b;
+*/	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #2b2b2b;
 	font-size: 45px;
 	text-align: center;
-	padding-top: 1.5em;
-/*	letter-spacing: 1px;
-*/	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-
-}
-
-#video {
-	width: 700px;
-	height: 350px;
-	background-color: #c2c2c2;
-	float: right;
-	margin-right: 50px;
-	margin-top: 20px;
+	padding-top: 2.5em;
+	letter-spacing: .0025em;
+	/*text-shadow:2px 2px 2px #aaa;*/
 }
 
 a#navmenu:link {
-	color: #292f33;
+	color: #66757f;
 	text-decoration: none;
 }
 
@@ -89,12 +122,12 @@ a#navmenu:active {
 }
 
 a#navmenu:visited {
-	color: #292f33;
+	color: #66757f;
 	text-decoration: none;
 }
 
 a#navmenu:hover {
-	color: #3b88c3;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -104,12 +137,12 @@ a.copylink:link {
 }
 
 a.copylink:active {
-	color: #292f33;
+	color: #66757f;
 	text-decoration: none;
 }
 
 a.copylink:visited {
-	color: #292f33;
+	color: #66757f;
 	text-decoration: none;
 }
 
@@ -118,16 +151,26 @@ a.copylink:hover {
 	text-decoration: none;
 }
 
-/*#main {
-	max-width: 10%px;
-}*/
 
+#b .overlay {
+    position:absolute;
+	width: 23.25%;
+	height: 23%;
+	padding:10px;
+    background-color:rgba(51, 51, 51, .75);
+    display:none;
+}
 
+#b:hover .overlay {
+    display: block;
+}
 
-
-
-
-
+span {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 13px;
+	color: #fff;
+}
+/*CTA button for File a ticket on HP*/
 button{
 	outline: 0;
 	border: none;
@@ -151,93 +194,60 @@ button:hover {
 #grid {
 	max-width: 100%;
 	max-height: 150pxpx;
-/*	padding-top: 10px;
-*/	margin: 0 auto;
+	padding-top: 70px;
+	margin: 0 auto;
 }
 
 #a {
-	background-color: #cc3ea2;
-	background-image:url("https://raw.githubusercontent.com/jessperate/jessperate.github.io/master/vogue.jpg");
+	background-color: #ea596e;
+	background-image:url("../images/DM2.gif");
 	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: bottom;
+	background-size: 175%; 
+	background-position: center;
 }
 
 #b {
-	/*background-color: #77b255;
-	background-image:url("https://raw.githubusercontent.com/jessperate/jessperate.github.io/master/vogue3.jpg");
-	background-repeat: no-repeat;*/
-	background-color: #c6e5b3;
-	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
-	background-size: 100%; 
-	background-position: bottom;
+	background-color: #55acee;
+	background-image:url("../images/video.gif");
+	background-repeat: no-repeat;
+	/*background-color: #c6e5b3;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);*/
+	background-size: 95%; 
+	background-position: center;
 }
 
 #c {
-	background-color: #55acee;
-	background-image:url("https://raw.githubusercontent.com/jessperate/jessperate.github.io/master/vogue4.jpg");
+	background-color: #fff;
+	background-image:url("../images/cricket_bkgd.png");
 	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: bottom;
+	background-size: 145%; 
+	background-position: center;
 }
 
 #d {
-	background-color: #cbb7ea;
-	background-image: repeating-linear-gradient(180deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	background-color: #f2f6f9;
+	background-image:url("../images/growth1.png");
+	background-repeat: no-repeat;
 	background-size: 100%; 
 	background-position: bottom;
-	 color: #202c2d;
-  text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93,
-    -3px 2px #cdd2d5,
-    -3px 4px #808d93,
-    -4px 3px #cdd2d5,
-    -4px 5px #808d93,
-    -5px 4px #cdd2d5,
-    -5px 6px #808d93,
-    -6px 5px #cdd2d5,
-    -6px 7px #808d93,
-    -7px 6px #cdd2d5,
-    -7px 8px #808d93,
-    -8px 7px #cdd2d5; 
-}
+	color: #202c2d;
+	}
 
 #e {
-	background-color: #ffe8b6;
-	background-image: repeating-linear-gradient(180deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
-	background-size: 100%; 
-	background-position: bottom;
-	 color: #202c2d;
-  text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93,
-    -3px 2px #cdd2d5,
-    -3px 4px #808d93,
-    -4px 3px #cdd2d5,
-    -4px 5px #808d93,
-    -5px 4px #cdd2d5,
-    -5px 6px #808d93,
-    -6px 5px #cdd2d5,
-    -6px 7px #808d93,
-    -7px 6px #cdd2d5,
-    -7px 8px #808d93,
-    -8px 7px #cdd2d5;
+	background-color: #55acee;
+	background-image:url("../images/abuse.png");
+	background-repeat: no-repeat;
+	background-size: 120%; 
+	background-position: center;
+	color: #202c2d;
 }
 
 #f {
-	background-color: #dd2e44;
-	background-color: #55acee;
-	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/vogue7.jpg?raw=true");
+	background-color: #000000;
+	background-image:url("../images/9th_bday.png");
 	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: bottom; 
+	background-size: 110%; 
+	background-position: center; 
 }
 
 #g {
@@ -245,24 +255,7 @@ button:hover {
 	background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
 	background-size: 100%; 
 	background-position: bottom;
-	 color: #202c2d;
-  text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93,
-    -3px 2px #cdd2d5,
-    -3px 4px #808d93,
-    -4px 3px #cdd2d5,
-    -4px 5px #808d93,
-    -5px 4px #cdd2d5,
-    -5px 6px #808d93,
-    -6px 5px #cdd2d5,
-    -6px 7px #808d93,
-    -7px 6px #cdd2d5,
-    -7px 8px #808d93,
-    -8px 7px #cdd2d5; 
+	color: #202c2d;
 }
 
 #h {
@@ -280,6 +273,66 @@ button:hover {
 	background-position: bottom; 
 }
 
+#j {
+	background-color: #55acee;
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/vogue9.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom; 
+}
+
+#k {
+	background-color: #55acee;
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/vogue9.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom; 
+}
+
+#l {
+	background-color: #55acee;
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/vogue9.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom; 
+}
+
+
+.description {
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all .3s; /* Safari */
+	-moz-transition: all .3s; /* Mozilla */
+    transition: all .3s;
+}
+
+.description:hover {
+	opacity: 1;
+}
+
+.description p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	-webkit-transition: all .3s; /* Safari */
+	-moz-transition: all .3s; /* Mozilla */
+    transition: all .3s;
+	top: 50%;
+  	transform: scale(.5);
+  	-webkit-transform: scale(.5);
+}
+
+.description:hover p {
+	-webkit-transform: scale(1) translateY(-50%); /* Safari */
+    transform: scale(1) translateY(-50%);
+}
+
 #profile1 {
 	width: 200px;
 	height: 200px;
@@ -289,6 +342,7 @@ button:hover {
 #copy {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 70px;
+	line-height: 70px;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
@@ -398,6 +452,38 @@ button:hover {
   	transform: translateY(-50%);
 }
 
+#GM {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
+
+/*	font-family: 'Leckerli One', cursive;
+*/	font-size: 34px;
+	color: #fff;
+	text-align: center;
+/*	text-transform: uppercase;
+*/	margin: auto;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	  text-shadow:
+    0 1px #000,
+    -1px 0 #cdd2d5,
+    -1px 2px #000,
+    -2px 1px #000,
+    -2px 3px #000,
+    -3px 2px #000,
+    -3px 4px #000,
+    -4px 3px #000,
+    -4px 5px #000,
+    -5px 4px #000,
+    -5px 6px #000,
+    -6px 5px #000,
+    -6px 7px #000,
+    -7px 6px #000,
+    -7px 8px #000,
+    -8px 7px #000; 
+}
+
 #Video {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 70px;
@@ -433,6 +519,7 @@ button:hover {
 	float: left;
 /*	display: block;
 /**/margin: .125%;
+	position: relative;
 /*	display: inline-block;
 */}
 
@@ -474,26 +561,18 @@ h3 {
 */	
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 1.75em;
 	text-align: center;
-	margin-top: 1.2em;
+	margin-top: 2em;
 	max-width: 60%;
-	padding-bottom: 25px;
+	padding-bottom: 35px;
 	margin: auto;
 
 }
 
 
 
-h4 {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #4344d8;
-	font-weight: 700;
-	margin-top: -1%;
-	text-decoration: underline;
-	text-indent: 15%;
-}
 
 #hand {
 	margin: 0 auto;
@@ -601,11 +680,104 @@ h4 {
 
 
 
-    	.box {
+    .box {
  		float: none;
  		width: 100%;
  	}
 
+
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+#about {
+	max-width: 70%;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.bios {
+	width: 32.333%%;
+/*	background-color: #ccd6dd;
+*/	height: 600px;
+	float: left;
+	margin: .5%;
+}
+
+
+
+#profile {
+	margin-top: 70%;
+/*	margin-left: 5%;
+*/}
+
+#bio {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-top: -8%;
+	max-width: 90%;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	color: #3b3b3b;
+	font-weight: 400;
+	font-size: 28px;
+/*	margin-top: 70%;
+*/}
+
+h6 {
+	  font-family: 'Roboto Condensed', sans-serif;
+	  font-weight: 400;
+	  color: #939392;
+	  font-size: 16px;
+	  text-transform: uppercase;
+	  margin-top: -40px;
+	  letter-spacing: .75px;
+}
+
+	#john {
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/john.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: top;
+}
+
+	#josie {
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/josie%20copy.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: top;
+	}
+
+	#abi {
+	background-image:url("https://github.com/jessperate/jessperate.github.io/blob/master/abi.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: top;
+	}
+
+#viddy {
+	float: right;
+	padding-right: 20px;
+}
+
+/*img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}*/
 
 }
 
@@ -618,3 +790,20 @@ h4 {
 
 }
 
+/*@media screen and (min-width: 593px) and (max-width: 867px) {
+	h4 {
+		font-family: 'Roboto Condensed', sans-serif;
+	color: #000000;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	float: left;
+	height: 10%;
+	width: 40%;
+	background-color: #fff;
+	text-indent: 10px;
+	padding-top: 10px;
+	margin-left: 5%;
+	margin-top: 40%;
+	}
+}*/

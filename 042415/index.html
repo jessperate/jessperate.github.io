@@ -13,77 +13,148 @@
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>	
 	<meta name="viewport" content="width=device-width, initialscale=1">
+	<link rel="stylesheet" href="css/animations.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+	<script>
+		jQuery.ajax({
+            url: "https://jira.twitter.biz/s/c50145c0da488f4313edd56ac4c8fd40-T/en_US-4d84jq/6345/122/1.4.16/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=f22f78a8",
+        type: "get",
+    cache: true,
+    dataType: "script"
+});
+	</script
+
+
 
 
 </head>
 
 <body>
+            
 
-<nav class="menu"> <a name="top"></a>
-<ul>
-	<li class="current"><a href="google.com" id="navmenu">About</li></a>
-	<li>Contact</li>
-	<li>Work</li>
-	<li>Taco Shop</li>
-<!-- 	<li>File a Ticket</li>
- --></ul>
-</nav>
+
+	<script type="text/javascript">
+	window.ATL_JQ_PAGE_PROPS = {
+		"triggerFunction": function(showCollectorDialog) {
+			jQuery("button") .click(function(e) {
+				e.preventDefault();
+				showCollectorDialog();
+			});
+		}
+	};
+</script>
+
+
+
+
+<div class="headercss">
+
+	<p class="gocreative"> go/Creative </p>
+
+	<nav class="menu"> <a name="top"></a>
+		
+		<ul>
+			<li class="current"><a href="Team.html" id="navmenu">Team</li></a>
+			<li>Assets</li>
+			<li><a href="index.html" id="navmenu">Work</li></a>
+			<li>About</li>
+			<li id="ticket">File a Ticket</li>
+		</ul>
+	</nav>
+</div
 
 <div id="main1">
 
-<!-- 		<div id="hand"><img src="hand.png"></div>
- -->
 		<h1 id="HPheader">Marketing Creative</h1>
-		<p id="blurb">Bacon ipsum dolor amet porchetta chuck drumstick, kielbasa corned beef pastrami sausage pig. Hamburger doner sausage short loin beef cow leberkas shank. Bacon ipsum dolor amet porchetta chuck drumstick, kielbasa corned beef.</p>
+		<p id="blurb">Our mission is to drive growth, tell product stories + communicate the brand through design, copy, and video.</p>
 
-	<button><span><span>File a Ticket</span></span></button>
+	<button>
 
+		<span><span> File a Ticket</span></span>
+
+	</button>
 
 </div>
 
 <div id="grid">
 
-	<a href="portfolio1.html" id="port1"><div class="box" id="a"></div></a>
+	<a href="portfolio1.html" id="port1"><div class="box" id="a">
 
-	<div class="box" id="b">
-		<p id="copy"><a href="#openModal" class="copylink">Copy</p></a>
+		<div class="description">
+		<p> Direct Messaging </p>
+		</div>
 
-		<div id="openModal" class="modalDialog">
-    <div>	<a href="#close" title="Close" class="close">X</a>
+	</div></a>
 
-        	<h2>Modal Box</h2>
-
-        <p>This is a sample modal box that can be created using the powers of CSS3.</p>
-        <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-    </div>
+	<a href="videos.html" id="port1"><div class="box" id="b">
+		<div class="description">
+		<p> Videos on Twitter </p>
+		</div></a>
 </div>
-		<p id="copyblurb">Lorem ipsum dolor sit amet lorem ipsum bacon fries and a large coca cola</p>
+
+	<a href="Cricket.html" id="port1"><div class="box" id="c">
+		<div class="description">
+			<p> Cricket World Cup </p>
+		</div>
+	</div></a>
+
+	<div class="box" id="d">
+		<div class="description">
+			<p> Growth Playbook </p>
+		</div>
 	</div>
 
-	<div class="box" id="c"></div>
-	<div class="box" id="d"><p id="copy">Design</p></div>
-	<div class="box" id="e"><p id="copy">Tacos</p></div>
-	<div class="box" id="f"></div>
-	<div class="box" id="g"><p id="copy">Video</p></div>
-	<div class="box" id="h"></div>
+	<a href="Abuse.html" id="port1"><div class="box" id="e">
+		<div class="description">
+			<p> Abuse + Safety </p>
+		</div>
+	</div></a>
+
+	<a href="9th.html" id="port1"><div class="box" id="f">
+		<div class="description">
+			<p> 9th birthday </p>
+		</div>
+	</div></a>
+
+	<div class="box" id="g">
+		<div class="description">
+			<p> First Tweets </p>
+		</div>
+	</div>
+
+	<div class="box" id="h">
+		<div class="description">
+			<p> Highlights </p>
+		</div>
+	</div>
 
 	<div class="box" id="i">
-		<img src="images/profile.png" id="profile1">
+		<div class="description">
+			<p> Periscope </p>
+		</div>	
 	</div>
 
-	<div class="box" id="b"></div>
-	<div class="box" id="c"></div>
-	<div class="box" id="d"></div>
-	<div class="box" id="e"></div>
-	<div class="box" id="f"></div>
-	<div class="box" id="g"></div>
-	<div class="box" id="h"></div>
+	<div class="box" id="j">
+		<div class="description">
+			<p> about.twitter.com</p>
+		</div>
+	</div>
 
+	<div class="box" id="k">
+		<div class="description">
+			<p> Misc</p>
+		</div>
+	</div>
 
-	
+	<div class="box" id="l">
+		<div class="description">
+			<p> Taco Shop</p>
+		</div>
+	</div>
+		
 </div>
 
-<a href="#top"><p> back to top</p></a>
 
 <div id="footer">
 
@@ -91,5 +162,8 @@ Contact:<br> <a href="mailto:someone@example.com?Subject=Hello%20again" target="
 
 </div>
 
+
+
 </body>
 </html>
+
