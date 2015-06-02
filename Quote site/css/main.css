@@ -1,0 +1,90 @@
+body {
+	background-color: #ec4160;
+}
+
+#header {
+	margin: auto;
+	max-width: 40%;
+	height: 100px;
+	padding-top: 40px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#grid {
+	margin: auto;
+	max-width: 40%;
+	height: 100px;
+/*	padding-top: 50px;
+*/	text-align: center;
+}
+
+.emojis {
+	width: 100%;
+	display: block;
+	float: left;
+	margin: auto;
+
+}
+
+#palette {
+	width: 150px;
+	height: 158px;
+	background-size: 75%;
+	background-image:url("../images/palette.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	float: left;
+}
+
+#arrow {
+	width: 150px;
+	height: 158px;
+	background-size: 75%;
+	background-image:url("../images/rightarrow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	float: left;
+}
+
+#arm {
+	width: 150px;
+	height: 158px;
+	background-size: 75%;
+	background-image:url("../images/arm.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	float: left;
+}
+
+h1 {
+/*	margin: 80px;
+*/	font-family: 'Stint Ultra Expanded', cursive;	
+/*	font-weight: 700;
+*/	font-size: 45pt;
+	color: #fff; 
+	text-align: center;
+	letter-spacing: 2pt;
+	padding-top: 40px;
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #efd058;
+	font-size: 20pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
